@@ -1,0 +1,34 @@
+    .container {
+        height: 100vh;
+        text-align: center;
+    }
+    
+    .color-input {
+        padding: 2%;
+    }
+    
+    .color1,
+    .color2 {
+        border: none;
+        padding: 0%;
+        margin: 0px;
+        border-width: 0px;
+        background: nonex;
+    }
+    
+    h1 {
+        font: 600 3.5em 'Raleway', sans-serif;
+        color: rgba(0, 0, 0, .5);
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: .5em;
+        width: 100%;
+    }
+    
+    h2,
+    h3,
+    select,
+    option {
+        font-family: 'Century Gothic';
+        text-transform: uppercase;
+    }
