@@ -4,9 +4,6 @@ let input2 = document.querySelector('.color2');
 let select = document.querySelector('#direction');
 let css = document.querySelector('h3');
 let changeGradient = function() {
-    if (select.value.length == 0) {
-        body.style.background = "linear-gradient(" + input1.value + "," + input2.value + ")";
-    }
     body.style.background = "linear-gradient(" + select.value + "," + input1.value + "," + input2.value + ")";
     css.textContent = body.style.background;
 }

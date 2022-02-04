@@ -31,4 +31,34 @@
     option {
         font-family: 'Century Gothic';
         text-transform: uppercase;
+        border: none;
+        background: rgba(0, 0, 0, 0.349);
+        color: white;
+        border-radius: 1em;
+        text-align: center;
     }
+    select,option:focus{
+        outline:none;
+        border: none;
+        
+    }
+    .output{
+        display: flex;
+        justify-content: center;
+    }
+
+    h2,h3{
+        letter-spacing: 1em;
+        padding: 10px;
+        word-spacing: 1.5em;
+        border-radius: 1em;
+        width: max-content;
+        color: white;
+        background: rgba(0, 0, 0, 0.2);
+    }
+    h3{
+        font-size: 0.5em;
+        letter-spacing: 0.5em;
+        word-spacing: normal;
+    }
+
